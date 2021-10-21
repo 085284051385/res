@@ -3646,8 +3646,8 @@ case 'getvn':
              } else {
              for (let _ of anu) {
 dha.sendMessage(_.jid, 
-			{"contentText": `*「 Siaran Xrutz BOT 」*\n© XrutZ BOT\n*Isi Pesan :* ${body.slice(4)}`,
-			"footerText": '© ℭ𝔯𝔢𝔞𝔱𝔬𝔯 Xrutz BOT',
+			{"contentText": `*「 Siaran ᴼᶜᴴᴼᴮᴼᵀᶻ☽ 」*\n© ᴼᶜᴴᴼᴮᴼᵀᶻ☽\n*Isi Pesan :* ${body.slice(4)}`,
+			"footerText": '© ℭ𝔯𝔢𝔞𝔱𝔬𝔯 ᴼᶜᴴᴼᴮᴼᵀᶻ☽',
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
 			"buttonText": {"displayText": "LIST MENU"
@@ -4132,7 +4132,7 @@ case 'linkgc':
         case 'info':
         case 'infobot':  // Jangan Di Ubah Plise
                gopeynya = 'https://i.postimg.cc/Dzj553cR/RutzBot.jpg'
-               thankslort = `*[━━━━ INFO BOT ━━━━]*\n*➤ Nama : Xrutz Bot*\n*➤ Pukul : ${moment().utcOffset('+0700').format('HH:mm')}*\n*➤ Tanggal : ${moment.tz('Asia/Jakarta').format('DD/MM')}*\n*➤ Tipe : Node Js*\n*➤ Version : 3.3*\n*[━━━━━━━━━━━━━━━━━━]*`
+               thankslort = `*[━━━━ INFO BOT ━━━━]*\n*➤ Nama : ᴼᶜᴴᴼᴮᴼᵀᶻ☽*\n*➤ Pukul : ${moment().utcOffset('+0700').format('HH:mm')}*\n*➤ Tanggal : ${moment.tz('Asia/Jakarta').format('DD/MM')}*\n*➤ Tipe : Node Js*\n*➤ Version : 3.3*\n*[━━━━━━━━━━━━━━━━━━]*`
              dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: thankslort })
              break
       case 'get':
