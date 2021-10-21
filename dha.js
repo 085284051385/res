@@ -244,7 +244,7 @@ module.exports = dha = async (dha, mek) => {
         const gcount = setting.gcount
         
         const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = dha.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "© ℭ𝔯𝔢𝔞𝔱𝔬𝔯 XrutZ BOT","listType": "SINGLE_SELECT","sections": list}}, {})
+            let po = dha.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "© ℭ𝔯𝔢𝔞𝔱𝔬𝔯 ᴼᶜᴴᴼᴮᴼᵀᶻ☽","listType": "SINGLE_SELECT","sections": list}}, {})
             return dha.relayWAMessage(po, {waitForAck: true})
         }
         
@@ -532,7 +532,7 @@ module.exports = dha = async (dha, mek) => {
 		const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
         const troli =  {key: { fromMe: false,remoteJid: "status@broadcast", participant: '0@s.whatsapp.net'}, message: {orderMessage: {itemCount: 300, status: 200, thumbnail: fakeimage, surface: 200, message: fake, orderTitle: 'dha', sellerJid: '0@s.whatsapp.net'} } }
         const ftext = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: { "extendedTextMessage": {"text": `*Hai ${pushname}👋*\n  ${moment().utcOffset('+0700').format('HH:mm:ss')} ${moment.tz('Asia/Jakarta').format('DD/MM/YYYY')}`,"title": `Hmm`,'jpegThumbnail': fs.readFileSync('./media/sherlynn.jpg')}}}
-        const ftoko = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": fs.readFileSync(`./media/sherlynn.jpg`)},"title": `© XrutZ BOT`,"description": "ℭ𝔯𝔢𝔞𝔱𝔬𝔯 Xrutz BOT", "currencyCode": "IDR","priceAmount1000": "999999","retailerId": "Xrutz Bot","productImageCount": 1},"businessOwnerJid": `0@s.whatsapp.net`}}}
+        const ftoko = {key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: {"productMessage": {"product": {"productImage":{"mimetype": "image/jpeg","jpegThumbnail": fs.readFileSync(`./media/sherlynn.jpg`)},"title": `© ᴼᶜᴴᴼᴮᴼᵀᶻ☽`,"description": "ℭ𝔯𝔢𝔞𝔱𝔬𝔯 ᴼᶜᴴᴼᴮᴼᵀᶻ☽", "currencyCode": "IDR","priceAmount1000": "999999","retailerId": "ᴼᶜᴴᴼᴮᴼᵀᶻ☽","productImageCount": 1},"businessOwnerJid": `0@s.whatsapp.net`}}}
 
       // Anti link
         if (isGroup && isAntiLink && !isOwner && !isGroupAdmins && isBotGroupAdmins){
