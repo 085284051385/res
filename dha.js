@@ -973,7 +973,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,   `© ℭ𝔯𝔢𝔞𝔱𝔬𝔯 XrutZ BOT`, list)
+               listmsg(from, `${ucapanWaktu}`,   `© ℭ𝔯𝔢𝔞𝔱𝔬𝔯 ᴼᶜᴴᴼᴮᴼᵀᶻ☽`, list)
                break
 //------------------< Game >------------------- 
         case 'limitgame': 
